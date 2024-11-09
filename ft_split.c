@@ -6,7 +6,7 @@
 /*   By: ilbonnev <ilbonnev@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 14:13:01 by ilbonnev          #+#    #+#             */
-/*   Updated: 2024/11/09 15:12:03 by ilbonnev         ###   ########.fr       */
+/*   Updated: 2024/11/09 22:37:58 by ilbonnev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ static char	addword(char **split, char *word, size_t *k)
 	return (1);
 }
 
-size_t	countwords(const char *s, const char sep)
+static size_t	countwords(const char *s, const char sep)
 {
 	size_t	wc;
 	size_t	i;
